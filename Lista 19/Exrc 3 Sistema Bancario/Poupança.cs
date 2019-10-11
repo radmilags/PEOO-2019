@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exrc_3_Sistema_Bancário
+namespace Exrc_3_Sistema_Bancario
 {
     class Poupança : ContaCorrente
     {

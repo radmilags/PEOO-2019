@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 1 Figuras", "Exrc 1 Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 2 Frete", "Exrc 2 Frete\Exrc 2 Frete.csproj", "{088BCE97-D96A-433A-9C4E-1A40B482D381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 3 Sistema Bancario", "Exrc 3 Sistema Bancario\Exrc 3 Sistema Bancario.csproj", "{4D8A1F15-BCFB-4FD2-90DF-753ADA8FB2E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 3 Sistema Bancario", "Exrc 3 Sistema Bancario\Exrc 3 Sistema Bancario.csproj", "{2E061B59-D4BA-45D0-9D45-B44FE3AEEC14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{088BCE97-D96A-433A-9C4E-1A40B482D381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{088BCE97-D96A-433A-9C4E-1A40B482D381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{088BCE97-D96A-433A-9C4E-1A40B482D381}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D8A1F15-BCFB-4FD2-90DF-753ADA8FB2E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D8A1F15-BCFB-4FD2-90DF-753ADA8FB2E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D8A1F15-BCFB-4FD2-90DF-753ADA8FB2E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D8A1F15-BCFB-4FD2-90DF-753ADA8FB2E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E061B59-D4BA-45D0-9D45-B44FE3AEEC14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E061B59-D4BA-45D0-9D45-B44FE3AEEC14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E061B59-D4BA-45D0-9D45-B44FE3AEEC14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E061B59-D4BA-45D0-9D45-B44FE3AEEC14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
