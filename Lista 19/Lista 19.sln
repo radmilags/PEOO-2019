@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 1 Figuras", "Exrc 1 Figuras\Exrc 1 Figuras.csproj", "{A319367B-C455-48F9-A434-84DC2E7D20C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 2 Frete", "Exrc 2 Frete\Exrc 2 Frete.csproj", "{088BCE97-D96A-433A-9C4E-1A40B482D381}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A319367B-C455-48F9-A434-84DC2E7D20C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A319367B-C455-48F9-A434-84DC2E7D20C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A319367B-C455-48F9-A434-84DC2E7D20C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088BCE97-D96A-433A-9C4E-1A40B482D381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088BCE97-D96A-433A-9C4E-1A40B482D381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088BCE97-D96A-433A-9C4E-1A40B482D381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088BCE97-D96A-433A-9C4E-1A40B482D381}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
