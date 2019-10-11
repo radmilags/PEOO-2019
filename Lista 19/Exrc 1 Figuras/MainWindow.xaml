@@ -7,19 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="465" Width="398.5">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="41*"/>
-            <ColumnDefinition Width="349*"/>
-        </Grid.ColumnDefinitions>
-        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Base" FontSize="30" Background="LightPink" TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="160" Grid.ColumnSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="177,10,0,0" Text="Altura" FontSize="30" Background="LightPink" TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="160" Grid.Column="1"/>
-        <TextBox Name="txtB" HorizontalAlignment="Left" Height="50" Width="160" Margin="10,80,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBox Name="txtH" HorizontalAlignment="Left" Height="50" Width="160" Margin="177,80,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <Button Height="50" Width="320" FontSize="30" Content="Calcular" Click="Calcular" Grid.ColumnSpan="2" Margin="32,163,38,221"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,236,0,0" Text="Retângulo" FontSize="30" Background="LightPink" TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="160" Grid.ColumnSpan="2"/>
-        <TextBox Name="txtR" HorizontalAlignment="Left" Height="50" Width="160" Margin="10,306,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <TextBlock HorizontalAlignment="Left" Margin="177,236,0,0" Text="Quadrado" FontSize="30" Background="LightPink" TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="160" Grid.Column="1"/>
-        <TextBox Name="txtQ" HorizontalAlignment="Left" Height="50" Width="160" Margin="177,306,0,0" VerticalAlignment="Top" Grid.Column="1"/>
-        <TextBox Name="txtD" HorizontalAlignment="Left" Height="50" Width="320" Margin="0,374,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Base" FontSize="30" Background="LightPink" TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="160"/>
+        <TextBlock HorizontalAlignment="Left" Margin="218,10,0,0" Text="Altura" FontSize="30" Background="LightPink" TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="160"/>
+        <TextBox Name="txtB" HorizontalAlignment="Left" Height="50" Width="160" Margin="10,80,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtH" HorizontalAlignment="Left" Height="50" Width="160" Margin="218,80,0,0" VerticalAlignment="Top"/>
+        <Button Height="50" Width="320" FontSize="30" Content="Calcular" Click="Calcular" Margin="41,164,29,220"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,236,0,0" Text="Retângulo" FontSize="30" Background="LightPink" TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="160"/>
+        <TextBox Name="txtR" HorizontalAlignment="Left" Height="50" Width="160" Margin="10,306,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="218,236,0,0" Text="Quadrado" FontSize="30" Background="LightPink" TextAlignment="Center" VerticalAlignment="Top" Height="50" Width="160"/>
+        <TextBox Name="txtQ" HorizontalAlignment="Left" Height="50" Width="160" Margin="218,306,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="txtD" HorizontalAlignment="Left" Height="50" Width="320" Margin="41,374,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
