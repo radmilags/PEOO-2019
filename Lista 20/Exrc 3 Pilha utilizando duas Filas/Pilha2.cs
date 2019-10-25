@@ -11,12 +11,10 @@ namespace Exrc_3_Pilha_utilizando_duas_Filas
         private Queue<T> q1, q2;
         public int Count()
         {
-            ArrayList r = new ArrayList(k);
-            Array.Copy(v, r, k);
-            return int.Parse(r);
+            foreach (int c in lista) return c;
         }
-        public T Top() { return v[v.Length - 1]; }
-        public T Pop() { q1.Remove(); q2.Remove(); }
+        public T Top() { }
+        public T Pop() { int x = q1.Count(); x--; q1.RemoveAt(x); q2.RemoveAt(x); }
         public void Push(T obj)
         {
             q1.Add(obj); q2.Add(obj);
