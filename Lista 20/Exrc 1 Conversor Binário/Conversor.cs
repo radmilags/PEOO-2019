@@ -10,5 +10,13 @@ namespace Exrc_1_Conversor_Binário
     {
         private int num;
         private Stack <int> pilha;
+
+        public void SetNum(int num) { this.num = num; }
+        public string Binario()
+        {
+            string x = "";
+            while(num % 2 != 0) { x += (num % 2).ToString(); }
+            return x;
+        }
     }
 }
