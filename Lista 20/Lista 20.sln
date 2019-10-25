@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 1 Conversor Binário",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 2 Pilha utilizando uma Lista", "Exrc 2 Pilha utilizando uma Lista\Exrc 2 Pilha utilizando uma Lista.csproj", "{D2571E44-2DC6-434A-8322-972068B7734B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 3 Pilha utilizando duas Filas", "Exrc 3 Pilha utilizando duas Filas\Exrc 3 Pilha utilizando duas Filas.csproj", "{A9F29656-579A-4AD7-A56B-E90C1F650148}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D2571E44-2DC6-434A-8322-972068B7734B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2571E44-2DC6-434A-8322-972068B7734B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2571E44-2DC6-434A-8322-972068B7734B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F29656-579A-4AD7-A56B-E90C1F650148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F29656-579A-4AD7-A56B-E90C1F650148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F29656-579A-4AD7-A56B-E90C1F650148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F29656-579A-4AD7-A56B-E90C1F650148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
