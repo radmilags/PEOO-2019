@@ -10,11 +10,9 @@ namespace Exrc_4_Agenda_de_Contatos
     {
         private List<Contato> cs;
         Contato[] cont = new Contato[50];
-        private int k;
         public void Inserir(Contato c)
         {
-            if (k < 50) cont[k++] = c;
-            cs.Add
+            cs.Add(c);
         }
         public List<Contato> Listar()
         {
