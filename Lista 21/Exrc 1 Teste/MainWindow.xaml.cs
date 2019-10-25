@@ -24,5 +24,11 @@ namespace Exrc_1_Teste
         {
             InitializeComponent();
         }
+
+        private void Verificar(object sender, RoutedEventArgs e)
+        {
+            Teste t = new Teste();
+            t.Metodo1(int.Parse(txtN.Text));
+        }
     }
 }
