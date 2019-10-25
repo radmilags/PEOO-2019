@@ -24,5 +24,12 @@ namespace Exrc_1_Conversor_Binário
         {
             InitializeComponent();
         }
+
+        private void Converter(object sender, RoutedEventArgs e)
+        {
+            Conversor c = new Conversor();
+            c.SetNum(int.Parse(txtN.Text));
+            txtS.Text = c.Binario();
+        }
     }
 }
