@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 1 Teste", "Exrc 1 Teste\Exrc 1 Teste.csproj", "{D622DE2F-AED8-4FB0-A824-463D915B5957}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 2 Retângulo", "Exrc 2 Retângulo\Exrc 2 Retângulo.csproj", "{BE9BA3DE-5331-4EAA-A235-0150893B99DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D622DE2F-AED8-4FB0-A824-463D915B5957}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D622DE2F-AED8-4FB0-A824-463D915B5957}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D622DE2F-AED8-4FB0-A824-463D915B5957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9BA3DE-5331-4EAA-A235-0150893B99DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9BA3DE-5331-4EAA-A235-0150893B99DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9BA3DE-5331-4EAA-A235-0150893B99DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9BA3DE-5331-4EAA-A235-0150893B99DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
