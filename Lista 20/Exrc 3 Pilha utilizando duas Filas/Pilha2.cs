@@ -8,16 +8,30 @@ namespace Exrc_3_Pilha_utilizando_duas_Filas
 {
     class Pilha2<T>
     {
-        private Queue<T> q1, q2;
-        public int Count()
+        private Queue<T> q1 = new Queue<T>();
+        private Queue<T> q2 = new Queue<T>();
+        public int Count() //retornar a maior pilha
         {
-            foreach (int c in lista) return c;
+            if (q1.Count > 0) return q1.Count;
+            return q2.Count;
         }
-        public T Top() { }
-        public T Pop() { int x = q1.Count(); x--; q1.RemoveAt(x); q2.RemoveAt(x); }
+        public T Top()
+        {
+            while (Count() > 1) q2.Enqueue(q1.Dequeue());
+            T f = q1.Peek();
+            q1.Enqueue(q2.Dequeue());
+            return f;
+        }
+        public T Pop()
+        {
+            while (Count() > 1) q2.Enqueue(q1.Dequeue());
+            T f = q1.Peek();
+            q1.Enqueue(q2.Dequeue());
+            return f;
+        }
         public void Push(T obj)
         {
-            q1.Add(obj); q2.Add(obj);
+            q1.Enqueue(obj);
         }
     }
 }
