@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exrc_5_Escola
 {
-    class Turma
+    class Turma :  IComparable
     {
         private string semestre, disciplina;
         private List<Aluno> alunos;

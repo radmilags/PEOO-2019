@@ -13,8 +13,8 @@ namespace Exrc_2_Pilha_utilizando_uma_Lista
         {
             foreach (int c in lista) return c;
         }
-        public T Top() { int x = lista.Count; x--; return lista.IndexOf(x); }
+        public T Top() { return lista.Peek(); }
         public void Pop() { lista.Remove(); }
-        public void Push(T obj) { lista.Add(obj); }
+        public void Push(T obj) { lista.Push(obj); }
     }
 }
