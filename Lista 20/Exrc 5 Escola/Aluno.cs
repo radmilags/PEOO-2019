@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Exrc_5_Escola
 {
-    class Aluno
+    class Aluno : IComparable
     {
+        private string nome, matricula;
     }
 }
