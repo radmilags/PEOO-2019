@@ -9,5 +9,6 @@ namespace Exrc_5_Escola
     class Aluno : IComparable
     {
         private string nome, matricula;
+        public Aluno(string n, string m) { nome = n; matricula = m; }
     }
 }
