@@ -10,5 +10,8 @@ namespace Exrc_4_Agenda_de_Contatos
     {
         private string nome, email, fone;
         public Contato(string n, string e, string f) { nome = n; email = e; fone = f; }
+        public string GetNome() { return nome; }
+        public string GetEmail() { return email; }
+        public string GetFone() { return fone; }
     }
 }
