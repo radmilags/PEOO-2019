@@ -9,13 +9,18 @@ namespace Exrc_1_Conversor_Binário
     class Conversor
     {
         private int num;
-        private Stack <int> pilha;
+        private Stack <int> pilha = new Stack<int>();
 
         public void SetNum(int num) { this.num = num; }
         public string Binario()
         {
             string x = "";
-            while(num % 2 != 0) { x += (num % 2).ToString(); }
+            while (num > 0)
+            {
+                pilha.Push(num % 2);
+                num /= 2;
+            }
+            while (pilha.Count > 0) x += pilha.Pop().ToString();
             return x;
         }
     }
