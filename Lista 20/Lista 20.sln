@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 3 Pilha utilizando dua
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 4 Agenda de Contatos", "Exrc 4 Agenda de Contatos\Exrc 4 Agenda de Contatos.csproj", "{B8A9044C-30EE-4B32-A496-3D76732C9522}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 5 Escola", "Exrc 5 Escola\Exrc 5 Escola.csproj", "{8F75839A-5531-4F9B-A0B6-76238A553309}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B8A9044C-30EE-4B32-A496-3D76732C9522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8A9044C-30EE-4B32-A496-3D76732C9522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8A9044C-30EE-4B32-A496-3D76732C9522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F75839A-5531-4F9B-A0B6-76238A553309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F75839A-5531-4F9B-A0B6-76238A553309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F75839A-5531-4F9B-A0B6-76238A553309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F75839A-5531-4F9B-A0B6-76238A553309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
