@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Exrc_2_Retângulo
+namespace Exrc_2_Retangulo
 {
     /// <summary>
     /// Interação lógica para MainWindow.xam
@@ -23,6 +23,19 @@ namespace Exrc_2_Retângulo
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Calcular(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                Retangulo r = new Retangulo(double.Parse(txtB.Text), double.Parse(txtH.Text));
+                txtA.Text = r.AreaRet().ToString();
+            }
+            catch (ArgumentException erro)
+            {
+                MessageBox.Show(erro.Message);
+            }
         }
     }
 }
