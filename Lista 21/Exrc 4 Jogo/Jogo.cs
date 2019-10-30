@@ -16,10 +16,10 @@ namespace Exrc_4_Jogo
         {
             jogs[k++] = j;
         }
-        public List<Jogador> Listar()
+        public List<Jogador> Listar() //Talvez eu pudesse ter retornado a pilha diretamente;
         {
             List<Jogador> r = new List<Jogador>(k);
-            
+            for (int i = 0; i < k; i++) r[i] = jogs[i];
             return r;
         }
     }
