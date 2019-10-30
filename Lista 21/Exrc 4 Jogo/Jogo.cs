@@ -19,7 +19,7 @@ namespace Exrc_4_Jogo
         public List<Jogador> Listar()
         {
             List<Jogador> r = new List<Jogador>(k);
-            Array.Copy(jogs, r, k);
+            
             return r;
         }
     }
