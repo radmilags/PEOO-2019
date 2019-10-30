@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 2 Retângulo", "Exrc 2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 3 Conta Bancaria", "Exrc 3 Conta Bancaria\Exrc 3 Conta Bancaria.csproj", "{34AB6F61-0C4E-4E97-B608-D9AA73E088ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 4 Jogo", "Exrc 4 Jogo\Exrc 4 Jogo.csproj", "{AB80380E-C866-4E5A-B195-7DC13B2D0C4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{34AB6F61-0C4E-4E97-B608-D9AA73E088ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34AB6F61-0C4E-4E97-B608-D9AA73E088ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34AB6F61-0C4E-4E97-B608-D9AA73E088ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB80380E-C866-4E5A-B195-7DC13B2D0C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB80380E-C866-4E5A-B195-7DC13B2D0C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB80380E-C866-4E5A-B195-7DC13B2D0C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB80380E-C866-4E5A-B195-7DC13B2D0C4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
