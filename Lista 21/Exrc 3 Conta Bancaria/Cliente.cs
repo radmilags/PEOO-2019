@@ -19,5 +19,11 @@ namespace Exrc_3_Conta_Bancaria
         {
             if (k < 50) c[k++] = conta;
         }
+        public ContaBancaria[] Listar()
+        {
+            ContaBancaria[] r = new ContaBancaria[k];
+            Array.Copy(c, r, k);
+            return r;
+        }
     }
 }
