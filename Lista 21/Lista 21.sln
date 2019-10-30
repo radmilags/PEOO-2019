@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 1 Teste", "Exrc 1 Test
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 2 Retângulo", "Exrc 2 Retângulo\Exrc 2 Retângulo.csproj", "{BE9BA3DE-5331-4EAA-A235-0150893B99DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exrc 3 Conta Bancaria", "Exrc 3 Conta Bancaria\Exrc 3 Conta Bancaria.csproj", "{34AB6F61-0C4E-4E97-B608-D9AA73E088ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BE9BA3DE-5331-4EAA-A235-0150893B99DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE9BA3DE-5331-4EAA-A235-0150893B99DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE9BA3DE-5331-4EAA-A235-0150893B99DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AB6F61-0C4E-4E97-B608-D9AA73E088ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AB6F61-0C4E-4E97-B608-D9AA73E088ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AB6F61-0C4E-4E97-B608-D9AA73E088ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AB6F61-0C4E-4E97-B608-D9AA73E088ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
