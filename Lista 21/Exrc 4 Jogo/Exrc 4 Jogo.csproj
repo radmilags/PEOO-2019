@@ -63,6 +63,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="EmailExistenteException.cs" />
     <Compile Include="Jogador.cs" />
     <Compile Include="Jogo.cs" />
     <Compile Include="MainWindow.xaml.cs">
