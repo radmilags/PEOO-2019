@@ -13,7 +13,7 @@ namespace Exrc_1_Jogos
         private PGame p;
         public List<Game> Select() //Lista todos os jogos em ordem alfabética; usar List.OrderBy
         {
-            return v.OrderBy(g.nome);
+            return v.OrderBy();
         }
         public List<Game> SelectData() //Lista todos os jogos por ordem de compra;
         {
