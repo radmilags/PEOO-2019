@@ -13,7 +13,14 @@ namespace Exrc_5_Dicionario
         public List<k> Chaves { get => chaves; }
         public int Count { get => valores.Count; }
         //public v this[];
-        public void Add(k chave, v valor) { chaves.Add(chave); valores.Add(valor); }
+        public void Add(k chave, v valor)
+        {
+            if (chave == null || valor == null)
+                throw new Argument();
+            else if (chaves.IndexOf(chave) == -1 || valores.IndexOf(valor) == -1)
+            { chaves.Add(chave); valores.Add(valor); }
+            else throw new Invalid();
+        }
         public void Clear() { chaves.Clear(); valores.Clear(); }
         public bool Contains(k chave)
         {
