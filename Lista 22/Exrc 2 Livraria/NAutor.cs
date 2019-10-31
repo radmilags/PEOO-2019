@@ -8,6 +8,7 @@ namespace Exrc_2_Livraria
 {
     class NAutor
     {
+        //preciso estudar mais
         private List<Autor> v;
         private PAutor p;
         public List<Autor> Select() { }
