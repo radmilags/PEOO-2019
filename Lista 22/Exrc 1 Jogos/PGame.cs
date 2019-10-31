@@ -8,5 +8,8 @@ namespace Exrc_1_Jogos
 {
     class PGame
     {
+        private string arquivo;
+        public List<Game> Open() { }
+        public void Save(List<Game> v) { }
     }
 }
