@@ -21,5 +21,16 @@ namespace Exrc_5_Dicionario
 
             return x;
         }
+        public bool Remove(k chave)
+        {
+            bool x;
+            if (chaves.IndexOf(chave) == -1) x = false;
+            else
+            {
+                chaves.Remove(chave);
+                x = true;
+            }
+            return x;
+        }
     }
 }
