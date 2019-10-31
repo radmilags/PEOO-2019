@@ -11,8 +11,25 @@ namespace Exrc_5_Dicionario
         private List<k> chaves = new List<k>();
         private List<v> valores = new List<v>();
         public List<k> Chaves { get => chaves; }
-        public int Count { get => valores.Count; }
-        //public v this[];
+        public int Count { get => valores.Count; } //Count retorna a quantidade de elementos de uma lista;
+        public v this[k chave]
+        {
+            set
+            {
+                if (chaves.Contains(chave)) valores[chaves.IndexOf(chave)] = value; //O countains diz se certo elemento está dentro de uma lista;
+                else
+                {
+                    chaves.Add(chave);
+                    valores.Add(value);
+                }
+            }
+            get
+            {
+                int p = chaves.IndexOf(chave);
+                if (p == -1) throw new Invalid("Nenhum resultado encontrado");
+                else return valores[p];
+            }
+        }
         public void Add(k chave, v valor)
         {
             if (chave == null || valor == null)
