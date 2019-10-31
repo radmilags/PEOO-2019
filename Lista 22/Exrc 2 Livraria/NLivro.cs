@@ -11,5 +11,8 @@ namespace Exrc_2_Livraria
         private List<Livro> v;
         private PLivro p;
         public List<Livro> Select() { }
+        public void Insert(Livro l) { }
+        public void Update(Livro l) { }
+        public void Delete(Livro l) { }
     }
 }
