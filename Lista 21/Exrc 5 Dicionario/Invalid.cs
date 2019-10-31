@@ -8,5 +8,6 @@ namespace Exrc_5_Dicionario
 {
     class Invalid : InvalidOperationException
     {
+        public Invalid(string message) : base(message) { }
     }
 }

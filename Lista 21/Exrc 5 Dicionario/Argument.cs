@@ -8,6 +8,6 @@ namespace Exrc_5_Dicionario
 {
     class Argument : ArgumentNullException
     {
-
+        public Argument(string message) : base(message) { }
     }
 }

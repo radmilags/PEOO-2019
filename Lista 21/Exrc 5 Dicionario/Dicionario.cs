@@ -16,10 +16,10 @@ namespace Exrc_5_Dicionario
         public void Add(k chave, v valor)
         {
             if (chave == null || valor == null)
-                throw new Argument();
+                throw new Argument("O valor fornecido é inválido");
             else if (chaves.IndexOf(chave) == -1 || valores.IndexOf(valor) == -1)
             { chaves.Add(chave); valores.Add(valor); }
-            else throw new Invalid();
+            else throw new Invalid("O item já foi adicionado ao dicionário");
         }
         public void Clear() { chaves.Clear(); valores.Clear(); }
         public bool Contains(k chave)
