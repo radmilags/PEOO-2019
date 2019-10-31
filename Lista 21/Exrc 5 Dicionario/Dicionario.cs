@@ -10,5 +10,16 @@ namespace Exrc_5_Dicionario
     {
         private List<k> chaves = new List<k>();
         private List<v> valores = new List<v>();
+        public List<k> Chaves { get => chaves; }
+        public int Count { get => valores.Count; }
+        //public v this[];
+        public void Add(k chave, v valor) { chaves.Add(chave); valores.Add(valor); }
+        public void Clear() { chaves.Clear(); valores.Clear(); }
+        public bool Contains(k chave)
+        {
+            bool x = false;
+
+            return x;
+        }
     }
 }
